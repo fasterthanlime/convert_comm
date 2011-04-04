@@ -23,7 +23,7 @@ Into stuff like this:
 
 ## Usage
 
-convert_comm "your ruby doc comment"
+    convert_comm "your ruby doc comment"
 
 Outputs the php style comment to the standard output.
 
