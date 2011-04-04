@@ -1,0 +1,12 @@
+#!/bin/sh
+
+printf "$1" | \
+ sed 's/\[String\]/string/g' - | \
+ sed 's/\[Integer\]/integer/g' - | \
+ sed 's/\[Bool\]/bool/g' - | \
+ sed 's/\[Hashie::Mash\]/array/g' - | \
+ sed 's/\#/\*/1' - | \
+ sed '1 s/\*/   \/\*\*\n    \*/' -
+printf "\n    */"
+
+echo
