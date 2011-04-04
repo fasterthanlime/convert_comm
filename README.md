@@ -12,14 +12,14 @@ converts stuff like this:
 
 Into stuff like this:
 
-   /**
-    * Retrieve a list of the tracks of this user
-    *
-    * @param string user_id: id or login
-    * @param integer limit (50) limit per page
-    * @param bool embed (false) should embed codes be included in the response
-    * @return array Track list
-    */
+    /**
+     * Retrieve a list of the tracks of this user
+     *
+     * @param string user_id: id or login
+     * @param integer limit (50) limit per page
+     * @param bool embed (false) should embed codes be included in the response
+     * @return array Track list
+     */
 
 ## Usage
 
